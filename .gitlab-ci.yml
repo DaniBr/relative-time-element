@@ -1,15 +1,15 @@
-stages:
-  - push-to-github
+#stages:
+#  - push-to-github
 
-sync-to-github:
-  stage: push-to-github
-  image:
-    name: alpine/git:latest
-    entrypoint: [""]
-  script:
-    - echo "Mirroring to GitHub..."
-    - git remote add github https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git
+#sync-to-github:
+#  stage: push-to-github
+#  image:
+#    name: alpine/git:latest
+#    entrypoint: [""]
+#  script:
+#    - echo "Mirroring to GitHub..."
+#    - git remote add github https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git
 #    - git push --mirror github
-    - git push github main --force
-  only:
-    - main
+#    - git push github main --force
+#  only:
+#    - main

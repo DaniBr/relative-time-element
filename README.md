@@ -110,9 +110,9 @@ Here are some exciting features planned for future versions:
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/DaniBr/relative-time-element).  
+Contributions are welcome! Feel free to submit issues or pull requests on the [GitLab repository](https://gitlab.com/DaniBr/relative-time-element).  
 
-We also maintain a mirror on [GitLab](https://gitlab.com/yourusername/relative-time-element) for those who prefer using it. Contributions via GitLab are equally appreciated.  
+We also maintain a mirror on [GitHub](https://github.com/DaniBr/relative-time-element) for those who prefer using it. Contributions via GitHub are equally appreciated.  
 
 ---
 

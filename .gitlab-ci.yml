@@ -3,7 +3,6 @@ stages:
 
 sync-to-github:
   stage: push-to-github
-  image: alpine/git:latest
   script:
     - echo "Mirroring to GitHub..."
     - git remote add github https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git

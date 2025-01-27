@@ -9,3 +9,4 @@ sync-to-github:
     - git push --mirror github
   only:
     - main
+

@@ -3,9 +3,13 @@ stages:
 
 sync-to-github:
   stage: push-to-github
+  image: alpine/git:latest
+  variables:
+    GIT_CURL_VERBOSE: "1"
   script:
-    - echo https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git
-#    - git remote add github https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git
-#    - git push --mirror github
+    - set -x
+    - echo "Pushing to GitHub..."
+    - git remote add github https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git
+    - git push --mirror github
   only:
     - main

@@ -13,4 +13,3 @@ sync-to-github:
     - git push github main --force
   only:
     - main
-

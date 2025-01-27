@@ -1,0 +1,10 @@
+stages:
+  - push-to-github
+
+sync-to-github:
+  stage: push-to-github
+  script:
+    - git remote add github https://DaniBr:${GITHUB_TOKEN}@github.com/DaniBr/relative-time-element.git
+    - git push --mirror github
+  only:
+    - main

@@ -1,0 +1,20 @@
+{
+  "name": "relative-time-element",
+  "version": "1.0.0",
+  "description": "Custom HTML element to display relative times like '3 hours ago' or '2 days hence'.",
+  "main": "out/relative-time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/DaniBr/relative-time-element.git"
+  },
+  "keywords": [],
+  "author": "Daniel Bronshtein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/DaniBr/relative-time-element/issues"
+  },
+  "homepage": "https://gitlab.com/DaniBr/relative-time-element#readme"
+}
